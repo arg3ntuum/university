@@ -1,0 +1,117 @@
+DROP TABLE FIO_MARKS;
+DROP TABLE FIO_TEACHERS;
+DROP TABLE FIO_SUBJECTS;
+
+SET SERVEROUTPUT ON;
+
+-- Создание таблицы FIO_TEACHERS
+CREATE TABLE FIO_TEACHERS (
+TEACHER_ID NUMBER PRIMARY KEY,
+SURNAME VARCHAR2(50) NOT NULL,
+NAME VARCHAR2(50) NOT NULL,
+PATRONYMIC VARCHAR2(50)
+);
+
+-- Заполнение таблицы FIO_TEACHERS данными
+INSERT INTO FIO_TEACHERS (TEACHER_ID, SURNAME, NAME, PATRONYMIC)
+VALUES (1, 'Ivanov', 'Ivan', 'Ivanovich');
+INSERT INTO FIO_TEACHERS (TEACHER_ID, SURNAME, NAME, PATRONYMIC)
+VALUES (2, 'Petrov', 'Petr', 'Petrovich');
+INSERT INTO FIO_TEACHERS (TEACHER_ID, SURNAME, NAME, PATRONYMIC)
+VALUES (3, 'Sidorov', 'Sidor', 'Sidorovich');
+
+-- Создание таблицы FIO_SUBJECTS
+CREATE TABLE FIO_SUBJECTS (
+SUBJECT_ID NUMBER PRIMARY KEY,
+SUBJECT_NAME VARCHAR2(50) NOT NULL
+);
+
+-- Заполнение таблицы FIO_SUBJECTS данными
+INSERT INTO FIO_SUBJECTS (SUBJECT_ID, SUBJECT_NAME)
+VALUES (1, 'Math');
+INSERT INTO FIO_SUBJECTS (SUBJECT_ID, SUBJECT_NAME)
+VALUES (2, 'Physics');
+INSERT INTO FIO_SUBJECTS (SUBJECT_ID, SUBJECT_NAME)
+VALUES (3, 'Chemistry');
+
+-- Создание таблицы FIO_MARKS
+CREATE TABLE FIO_MARKS (
+MARK_ID NUMBER PRIMARY KEY,
+STUDENT_ID NUMBER NOT NULL,
+TEACHER_ID NUMBER NOT NULL,
+SUBJECT_ID NUMBER NOT NULL,
+MARK NUMBER NOT NULL,
+CONSTRAINT FK_STUDENT FOREIGN KEY (STUDENT_ID) REFERENCES FIO_STUDENTS (STUDENT_ID),
+CONSTRAINT FK_TEACHER FOREIGN KEY (TEACHER_ID) REFERENCES FIO_TEACHERS (TEACHER_ID),
+CONSTRAINT FK_SUBJECT FOREIGN KEY (SUBJECT_ID) REFERENCES FIO_SUBJECTS (SUBJECT_ID)
+);
+
+-- Заполнение таблицы FIO_MARKS данными
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (1, 1, 1, 1, 4);
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (2, 2, 1, 1, 5);
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (3, 1, 2, 2, 3);
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (4, 2, 2, 2, 5);
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (5, 1, 3, 3, 4);
+INSERT INTO FIO_MARKS (MARK_ID, STUDENT_ID, TEACHER_ID, SUBJECT_ID, MARK)
+VALUES (6, 2, 3, 3, 3);
+
+-- Создаем хранимую функцию FIO_QUANTITY_MARK
+CREATE OR REPLACE FUNCTION FIO_QUANTITY_MARK(sb_id IN NUMBER, mark IN NUMBER)
+RETURN NUMBER
+IS
+quantity_mark NUMBER;
+BEGIN
+SELECT COUNT(*) INTO quantity_mark
+FROM FIO_MARKS
+WHERE SUBJECT_ID = sb_id AND MARK = mark;
+RETURN quantity_mark;
+END;
+/
+
+-- Создаем процедуру для вывода на экран нужных данных
+CREATE OR REPLACE PROCEDURE PRINT_TEACHER_SUBJECT_MARK(teach_id IN NUMBER, sb_id IN NUMBER, mark IN NUMBER)
+IS
+teach_surname FIO_TEACHERS.SURNAME%TYPE;
+subject_name FIO_SUBJECTS.SUBJECT_NAME%TYPE;
+mark_quantity NUMBER;
+BEGIN
+-- Получаем фамилию преподавателя
+SELECT SURNAME INTO teach_surname
+FROM FIO_TEACHERS
+WHERE TEACHER_ID = teach_id;
+
+-- Получаем название предмета
+SELECT SUBJECT_NAME INTO subject_name
+FROM FIO_SUBJECTS
+WHERE SUBJECT_ID = sb_id;
+
+-- Получаем количество оценок по нужному предмету
+mark_quantity := FIO_QUANTITY_MARK(sb_id, mark);
+
+-- Выводим данные на экран
+DBMS_OUTPUT.PUT_LINE(teach_surname || ', ' || subject_name || ', оценка ' || mark || ', количество оценок: ' || mark_quantity);
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+DBMS_OUTPUT.PUT_LINE('Данные не найдены');
+END;
+/
+
+-- Вызываем процедуру с нужными параметрами
+BEGIN
+PRINT_TEACHER_SUBJECT_MARK(1, 2, 5);
+END;
+/
+
+/*
+В этом примере мы передаем в процедуру следующие параметры:
+
+teach_id = 1 - идентификатор преподавателя
+sb_id = 2 - идентификатор предмета
+mark = 5 - оценка, которую мы ищем в таблице FIO_MARKS
+Процедура выведет на экран фамилию преподавателя, название предмета, оценку и количество оценок, соответствующих нашему запросу.
+*/

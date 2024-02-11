@@ -1,0 +1,1 @@
+java -jar Lab_1-1.0-SNAPSHOT.jar

@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.Properties.Resources.resources
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\bin\Debug\SP_Lab_2.exe.config
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\bin\Debug\SP_Lab_2.exe
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\bin\Debug\SP_Lab_2.pdb
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.AddNewLotOfToys.resources
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.UI.resources
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.exe
+C:\Users\User\source\repos\SP_Lab_2\SP_Lab_2\obj\Debug\SP_Lab_2.pdb

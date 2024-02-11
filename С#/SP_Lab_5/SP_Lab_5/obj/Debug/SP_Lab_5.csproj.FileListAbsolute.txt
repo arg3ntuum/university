@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\bin\Debug\SP_Lab_5.exe.config
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\bin\Debug\SP_Lab_5.exe
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\bin\Debug\SP_Lab_5.pdb
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.AddNewLotOfToys.resources
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.Properties.Resources.resources
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.UI.resources
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.csproj.GenerateResource.cache
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.exe
+C:\Users\User\source\repos\SP_Lab_5\SP_Lab_5\obj\Debug\SP_Lab_5.pdb
