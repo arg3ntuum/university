@@ -1,0 +1,38 @@
+body {
+	background-color: #bd4242;
+	font-family: Comic Sans MS, Comic Sans, cursive;}
+h3 {
+	margin-left: 10 em;}
+h1 {
+	font-size: 3em;
+	margin-bottom: 0em;}
+.h3{
+	font-size: 1.4em;
+	font-family: Brush Script MT, Brush Script Std, cursive;}
+.h4{
+	font-size: 1.4em;
+	font-family: Bradley Hand, cursive;}
+.textfio {
+	
+	width: 150px; 
+    height: 17px;}
+textarea {
+	resize: none;}
+.aftobiografia {
+	width: 29%;}
+hr {
+    color: #5e0202; /* Цвет линии для остальных браузеров */
+    background-color: #5e0202; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+	width: 20%;
+	margin: 0px;}
+.container{
+    display: flex;}
+.cont {
+	width: 150px; 
+    height: 21px;}
+.pochtahr {
+	width: 50%; }
+.pochta {
+	width: 50%; 
+	height: 200px;}

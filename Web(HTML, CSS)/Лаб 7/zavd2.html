@@ -1,0 +1,43 @@
+<!doctype html>
+<html class = "body2">
+<head >
+<meta charset="utf-8" >
+<title>Лаб 7 Завд2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body >
+<a href = "Lab7.html" class = "Vernutsa" >Вернуться</a>
+	<div class = "div3"id="line_block">
+		Завантаження зображення
+		<div class="div4">
+			<input type="file" name="FileFrame"/>
+		</div>
+		<div class="div4">
+            <input type="button" class="button" value="     Завантажити    "></div>
+        <hr/>
+        <p class="heading"><em>Блок обробки</em></p>
+        <div class="div4">
+            <input type="button" class="button" value="    Маштабування    ">
+        </div>
+        <div class="div4">
+            <input type="button" class="button" value="Вимірювання  довжини">
+        </div>
+        <div class="div4">
+            <input type="button" class="button" value=" Вимірювання  площі ">
+        </div>
+        <div class="div4">
+            <input type="button" class="button" value="      Корекція      "></div>
+        <div class="div4">
+            <input type="button" class="button" value="      Очистити      "> </div>
+	</div>
+	<div class = "div5" id="line_block">
+<iframe id="FileFrame" src="about:blank"></iframe>
+<script type="text/javascript">
+var doc = document.getElementById('FileFrame').contentWindow.document;
+doc.open();
+doc.write('<html><head><title></title></head><body>Ваша картинка</body></html>');
+doc.close();
+</script>
+	</div>
+</body>
+</html>

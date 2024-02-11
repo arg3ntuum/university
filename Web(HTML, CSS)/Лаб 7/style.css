@@ -1,0 +1,68 @@
+html {
+	font-family: Comic Sans MS, Comic Sans, cursive;}
+/*////////////////////////////// Задание 1/////////////////////////////////*/
+.body1 {
+	background-image: url(https://avatanplus.com/files/resources/original/5977309052dbf15d7995b3d3.jpg);}
+.div1 {
+	text-indent: 2cm;
+	border: 2px dashed blue;
+	width : 1200pt;
+	background-color: #0f52ba;
+	margin: 2pt;
+	padding: 5pt;
+	border-radius: 20pt;
+	text-align: justify;
+	font-size: 10mm;
+	line-height:25mm;}
+.div2 {
+    font-size: 10mm;
+	text-indent: 2cm;
+	border: 2px dashed blue;
+	width : 1200pt;
+	background-color: #4161e1;
+	margin: 2pt;
+	padding: 5pt;
+	border-radius: 20pt;
+	text-align: justify;
+	line-height:15mm;}
+.Vernutsa {
+	background-color: #f8f8f8;
+	border: 2px dashed gray;
+	float: right;
+	border-radius: 50pt;}
+.span1 {
+    font-size:20mm;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	letter-spacing: 5mm;}
+/*////////////////////////////// Задание 2/////////////////////////////////*/
+.div3 {
+	height:250px;
+	width:250px;
+	border: 2px dashed blue;
+	background-color: #aabbcc;
+	margin: 2pt;
+	padding: 5pt;}
+.body2{
+	background-color:#ffeedd;}
+.div5 {
+	height:420px;
+	width:50%;
+	border: 2px dashed blue;
+	background-color: #aabbcc;
+	margin: 2pt;
+	padding: 5pt;
+	display:flex;}
+#line_block { 
+        
+        float:left; 
+        margin: 0 15px 15px 0; 
+        text-align:center;
+        padding: 10px;}
+.button{
+	width:250px;
+	border-radius:20pt;
+	background-color: #120a8f;}
+hr {
+	background-color:green;}

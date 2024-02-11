@@ -1,0 +1,108 @@
+html {
+  font-family: Comic Sans MS, sans-serif;
+  background-color: #ff6347;
+}
+img {
+	margin: 2pt;
+	width: 200pt;
+}
+a {
+	margin-left: 40%;
+	margin-top:15%;
+}
+/*///////////////////////////////     ЗАДАНИЕ 1      //////////////////////////////////////////////*/
+.top{
+    display: flex;
+}
+.bottom{
+ display: flex;
+}
+.middle{
+  margin-left: 40%;
+	margin-top:15%;
+}
+.i1{
+    float: left;
+}
+.i2{
+    float: right;
+}
+.perviy{
+	
+width: 50%;
+}
+.vtoroy {
+    width: 50%;
+}
+/*//////////////////////////////////////////////      Задание 2     ////////////////////////////////////////////////////*/
+b {
+	color: #8B4513
+}
+.tablica{
+    width: 60%;
+    background-color: white;
+	border: 8px inset red;
+	border-radius: 15pt;
+}
+.top{
+    display: flex;
+}
+.ryad1{
+    width: 100%;
+    border: red solid 1px;
+    text-align: center;
+    background-image: url(https://loveopium.ru/content/2012/06/space/00s.jpg);
+    height: 200px;
+}
+.marrg1{
+   margin-top: 80px;
+}
+.marrg2{
+    margin-top: 160px;
+}
+.vvnizu{
+    display: flex;
+}
+.tablica2{
+    width: 100%;
+}
+.ryad5{
+    width: 100%;
+    border: red solid 1px;
+    text-align: center;
+    background-image: url(https://sigma-foto.by/image/data/ikon/krasny.jpg);
+}
+.ryad2{
+    width: 100%;
+    border: red solid 1px;
+    text-align: center;
+    height: 200px;
+    background-color: #FF0019;
+}
+.ryad3{
+    width: 100%;
+    border: red solid 1px;
+    text-align: center;
+    background-image: url(http://www.astronomy.com/~/media/Images/Photo%20of%20Day/Large%20Images/2012/04/Butterfly-nebula.ashx?la=en&mw=900&mh=650);
+    height: 200px;
+}
+/*///////////////////////////////////////////       Задание3      ///////////////////////////////////////////////////////*/
+table {
+	border-collapse: collapse;
+	border: 3px solid rgb(200,200,200);
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+	width: 500pt;
+	height: 200pt;
+	overflow: scroll;
+	background-color: 	#A8A8A8;
+	
+}
+td, th {
+	border: 2px solid rgb(190,190,190);
+	padding: 10px 20px;
+}
+td {
+	text-align: center;
+}
+

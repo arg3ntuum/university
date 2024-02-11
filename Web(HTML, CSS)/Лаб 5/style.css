@@ -1,0 +1,45 @@
+html{
+	font-family: Comic Sans MS, sans-serif;
+}
+html.osnova {
+  background-color: #aabbcc;
+}
+/*///////////////////////////////             Завдання 1             /////////////////////////////*/
+html.kadr1 {
+  background-color: #ddeeff;
+}
+html.kadr2 {
+  background-color: #ffeedd;
+}
+html.kadr3 {
+  background-color: #ff00ff;
+}
+html.kadr4 {
+  background-color: #aabbcc;
+}
+fr1{
+	background-color: #ddeeff;
+	
+}
+fr2 {
+	background-color: #ffeedd;
+	
+}
+fr3{
+	background-color: #ff00ff;
+	
+}
+fr4 {
+	background-color: #aabbcc;
+	
+}
+/*///////////////////////////////             Завдання 2             /////////////////////////////*/
+a{
+	Color: #aaff00;
+}
+A:visited {
+    color: red;
+}
+a:active{
+	color: #ff00ff;   
+}
