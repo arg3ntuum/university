@@ -1,0 +1,11 @@
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Release\GraphEditorApp.exe.config
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Release\GraphEditorApp.exe
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Release\GraphEditorApp.pdb
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.GraphApp.resources
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.Properties.Resources.resources
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.csproj.GenerateResource.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.exe
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Release\GraphEditorApp.pdb

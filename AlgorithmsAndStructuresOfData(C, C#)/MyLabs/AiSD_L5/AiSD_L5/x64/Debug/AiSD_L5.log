@@ -1,0 +1,13 @@
+﻿  AiSD_L5.c
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(30,11): warning C4013: time: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(141,38): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long (*)[10]"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(141,30): warning C4024: returnNewMassive: различные типы для формального и фактического параметров 1
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(143,31): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long (*)[10]"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(143,23): warning C4024: quickSort: различные типы для формального и фактического параметров 1
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(145,32): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long (*)[10]"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(145,24): warning C4024: insertSort: различные типы для формального и фактического параметров 1
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(147,34): warning C4047: функция: "long *" отличается по уровням косвенного обращения от "long (*)[10]"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(147,26): warning C4024: random_input: различные типы для формального и фактического параметров 1
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(149,34): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "long (*)[10]"
+C:\Users\tftfj\source\repos\AiSD_L5\AiSD_L5\AiSD_L5.c(149,26): warning C4024: client_input: различные типы для формального и фактического параметров 1
+  AiSD_L5.vcxproj -> C:\Users\tftfj\source\repos\AiSD_L5\x64\Debug\AiSD_L5.exe

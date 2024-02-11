@@ -1,0 +1,8 @@
+﻿  Source1.c
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(98,57): warning C4244: функция: преобразование "float" в "size_t", возможна потеря данных
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(152,17): warning C4473: "fscanf_s": передано недостаточно аргументов для строки формата
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(152,17): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(152,17): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(152,17): message : этот аргумент используется в качестве размера буфера
+C:\Users\tftfj\source\repos\Algoritms_L3\Source1.c(154,53): warning C4244: функция: преобразование "float" в "size_t", возможна потеря данных
+  Algoritms_L3.vcxproj -> C:\Users\tftfj\source\repos\Algoritms_L3\x64\Debug\Algoritms_L3.exe

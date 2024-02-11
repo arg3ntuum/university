@@ -1,0 +1,5 @@
+﻿  Source1.c
+C:\Users\arg3n\source\repos\AiSD_Lab_1\Source1.c(150,12): warning C4047: инициализация: "char *" отличается по уровням косвенного обращения от "char (*)[2][3][2]"
+C:\Users\arg3n\source\repos\AiSD_Lab_1\Source1.c(153,11): warning C4047: инициализация: "char *" отличается по уровням косвенного обращения от "unsigned __int64"
+C:\Users\arg3n\source\repos\AiSD_Lab_1\Source1.c(45,12): warning C4101: pointer_matrix: неиспользованная локальная переменная
+  AiSD_Lab_1.vcxproj -> C:\Users\arg3n\source\repos\AiSD_Lab_1\x64\Debug\AiSD_Lab_1.exe

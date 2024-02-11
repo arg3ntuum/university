@@ -1,0 +1,9 @@
+﻿  Algo-LAB_1.c
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(91,53): warning C4133: =: несовместимые типы - из "int *" в "char *"
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(110,43): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(89,12): warning C4133: инициализация: несовместимые типы - из "int **" в "char **"
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(119,12): warning C4047: инициализация: "float *" отличается по уровням косвенного обращения от "float (*)[2][3][2]"
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(121,12): warning C4047: инициализация: "float *" отличается по уровням косвенного обращения от "unsigned __int64"
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(75,10): warning C4101: matrix_m: неиспользованная локальная переменная
+C:\Users\arg3n\source\repos\Algo-LAB_1\Algo-LAB_1\Algo-LAB_1.c(16,11): warning C4101: pointer_matrix: неиспользованная локальная переменная
+  Algo-LAB_1.vcxproj -> C:\Users\arg3n\source\repos\Algo-LAB_1\x64\Debug\Algo-LAB_1.exe

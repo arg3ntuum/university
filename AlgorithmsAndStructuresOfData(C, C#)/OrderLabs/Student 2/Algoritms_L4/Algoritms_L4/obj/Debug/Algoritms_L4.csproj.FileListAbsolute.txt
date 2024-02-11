@@ -1,0 +1,8 @@
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\bin\Debug\Algoritms_L4.exe.config
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\bin\Debug\Algoritms_L4.exe
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\bin\Debug\Algoritms_L4.pdb
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\obj\Debug\Algoritms_L4.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\obj\Debug\Algoritms_L4.csproj.SuggestedBindingRedirects.cache
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\obj\Debug\Algoritms_L4.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\obj\Debug\Algoritms_L4.exe
+C:\Users\tftfj\source\repos\Algoritms_L4\Algoritms_L4\obj\Debug\Algoritms_L4.pdb

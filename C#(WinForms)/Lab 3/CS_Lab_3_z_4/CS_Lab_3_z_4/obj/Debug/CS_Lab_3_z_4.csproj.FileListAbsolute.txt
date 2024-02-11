@@ -1,0 +1,11 @@
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\bin\Debug\CS_Lab_3_z_4.exe.config
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\bin\Debug\CS_Lab_3_z_4.exe
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\bin\Debug\CS_Lab_3_z_4.pdb
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.Form1.resources
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.Properties.Resources.resources
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.csproj.GenerateResource.cache
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.exe
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.pdb
+C:\Users\tftfj\source\repos\CS_Lab_3_z_4\CS_Lab_3_z_4\obj\Debug\CS_Lab_3_z_4.csproj.SuggestedBindingRedirects.cache

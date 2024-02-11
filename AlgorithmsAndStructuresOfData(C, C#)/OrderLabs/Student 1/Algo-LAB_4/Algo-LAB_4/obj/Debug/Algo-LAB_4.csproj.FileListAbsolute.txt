@@ -1,0 +1,8 @@
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\obj\Debug\Algo-LAB_4.csproj.AssemblyReference.cache
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\obj\Debug\Algo-LAB_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\obj\Debug\Algo-LAB_4.csproj.CoreCompileInputs.cache
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\bin\Debug\Algo-LAB_4.exe.config
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\bin\Debug\Algo-LAB_4.exe
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\bin\Debug\Algo-LAB_4.pdb
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\obj\Debug\Algo-LAB_4.exe
+C:\Users\arg3n\source\repos\Algo-LAB_4\Algo-LAB_4\obj\Debug\Algo-LAB_4.pdb

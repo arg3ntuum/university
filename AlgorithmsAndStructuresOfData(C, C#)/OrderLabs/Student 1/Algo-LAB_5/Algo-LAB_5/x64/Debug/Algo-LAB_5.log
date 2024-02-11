@@ -1,0 +1,13 @@
+﻿  Algo-LAB_5.c
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(30,11): warning C4013: time: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(118,34): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int (*)[9]"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(118,26): warning C4024: ClearMassive: различные типы для формального и фактического параметров 1
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(120,35): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int (*)[9]"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(120,27): warning C4024: SelectionSort: различные типы для формального и фактического параметров 1
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(122,31): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int (*)[9]"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(122,23): warning C4024: ShellSort: различные типы для формального и фактического параметров 1
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(124,31): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int (*)[9]"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(124,23): warning C4024: RandWrite: различные типы для формального и фактического параметров 1
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(126,28): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int (*)[9]"
+C:\Users\arg3n\source\repos\Algo-LAB_5\Algo-LAB_5\Algo-LAB_5.c(126,20): warning C4024: UWrite: различные типы для формального и фактического параметров 1
+  Algo-LAB_5.vcxproj -> C:\Users\arg3n\source\repos\Algo-LAB_5\x64\Debug\Algo-LAB_5.exe

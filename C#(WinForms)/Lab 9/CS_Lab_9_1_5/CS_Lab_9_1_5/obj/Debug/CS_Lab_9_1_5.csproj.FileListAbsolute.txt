@@ -1,0 +1,8 @@
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\bin\Debug\CS_Lab_9_1_5.exe.config
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\bin\Debug\CS_Lab_9_1_5.exe
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\bin\Debug\CS_Lab_9_1_5.pdb
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\obj\Debug\CS_Lab_9_1_5.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\obj\Debug\CS_Lab_9_1_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\obj\Debug\CS_Lab_9_1_5.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\obj\Debug\CS_Lab_9_1_5.exe
+C:\Users\tftfj\source\repos\CS_Lab_9_1_5\CS_Lab_9_1_5\obj\Debug\CS_Lab_9_1_5.pdb

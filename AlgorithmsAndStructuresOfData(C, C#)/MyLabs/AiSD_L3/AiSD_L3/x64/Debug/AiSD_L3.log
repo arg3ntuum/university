@@ -1,0 +1,6 @@
+﻿  AiSD_L3.c
+C:\Users\tftfj\source\repos\AiSD_L3\AiSD_L3\AiSD_L3.c(85,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\AiSD_L3\AiSD_L3\AiSD_L3.c(103,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\AiSD_L3\AiSD_L3\AiSD_L3.c(152,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\AiSD_L3\AiSD_L3\AiSD_L3.c(194,19): warning C4018: <: несоответствие типов со знаком и без знака
+  AiSD_L3.vcxproj -> C:\Users\tftfj\source\repos\AiSD_L3\x64\Debug\AiSD_L3.exe

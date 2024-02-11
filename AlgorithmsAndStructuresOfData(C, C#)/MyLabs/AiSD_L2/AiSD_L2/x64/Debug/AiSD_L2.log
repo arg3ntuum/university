@@ -1,0 +1,4 @@
+﻿  AiSD_L2.c
+C:\Users\tftfj\source\repos\AiSD_L2\AiSD_L2\AiSD_L2.c(84,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\AiSD_L2\AiSD_L2\AiSD_L2.c(102,20): warning C4018: <: несоответствие типов со знаком и без знака
+  AiSD_L2.vcxproj -> C:\Users\tftfj\source\repos\AiSD_L2\x64\Debug\AiSD_L2.exe

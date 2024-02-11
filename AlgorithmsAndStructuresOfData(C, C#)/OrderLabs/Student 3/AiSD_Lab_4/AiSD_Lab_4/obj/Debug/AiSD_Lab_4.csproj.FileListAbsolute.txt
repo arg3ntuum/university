@@ -1,0 +1,8 @@
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\bin\Debug\AiSD_Lab_4.exe.config
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\bin\Debug\AiSD_Lab_4.exe
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\bin\Debug\AiSD_Lab_4.pdb
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\obj\Debug\AiSD_Lab_4.csproj.AssemblyReference.cache
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\obj\Debug\AiSD_Lab_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\obj\Debug\AiSD_Lab_4.csproj.CoreCompileInputs.cache
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\obj\Debug\AiSD_Lab_4.exe
+C:\Users\arg3n\source\repos\AiSD_Lab_4\AiSD_Lab_4\obj\Debug\AiSD_Lab_4.pdb

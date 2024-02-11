@@ -1,0 +1,15 @@
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.AssemblyInfoInputs.cache
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.AssemblyInfo.cs
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\bin\Debug\net6.0\AiSD_L4_CS.exe
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\bin\Debug\net6.0\AiSD_L4_CS.deps.json
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\bin\Debug\net6.0\AiSD_L4_CS.runtimeconfig.json
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\bin\Debug\net6.0\AiSD_L4_CS.dll
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\bin\Debug\net6.0\AiSD_L4_CS.pdb
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.dll
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\refint\AiSD_L4_CS.dll
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.pdb
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\AiSD_L4_CS.genruntimeconfig.cache
+C:\Users\tftfj\source\repos\AiSD_L4_CS\AiSD_L4_CS\obj\Debug\net6.0\ref\AiSD_L4_CS.dll

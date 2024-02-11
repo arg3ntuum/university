@@ -1,0 +1,8 @@
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\bin\Debug\CS_Zavd_2_var_3.exe.config
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\bin\Debug\CS_Zavd_2_var_3.exe
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\bin\Debug\CS_Zavd_2_var_3.pdb
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\obj\Debug\CS_Zavd_2_var_3.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\obj\Debug\CS_Zavd_2_var_3.csproj.SuggestedBindingRedirects.cache
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\obj\Debug\CS_Zavd_2_var_3.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\obj\Debug\CS_Zavd_2_var_3.exe
+C:\Users\tftfj\source\repos\CS_Zavd_2_var_3\CS_Zavd_2_var_3\obj\Debug\CS_Zavd_2_var_3.pdb

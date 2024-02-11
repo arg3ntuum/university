@@ -1,0 +1,21 @@
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\bin\Debug\GraphEditorApp.exe.config
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\bin\Debug\GraphEditorApp.exe
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\bin\Debug\GraphEditorApp.pdb
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.csprojAssemblyReference.cache
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.GraphApp.resources
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.Properties.Resources.resources
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.GenerateResource.cache
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.CoreCompileInputs.cache
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.exe
+C:\Users\Ryaza\Desktop\Пары\Прога\C#\Решения\Lab #8\GraphEditorApp\obj\Debug\GraphEditorApp.pdb
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Debug\GraphEditorApp.exe.config
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Debug\GraphEditorApp.exe
+C:\Users\tftfj\source\repos\GraphEditorApp\bin\Debug\GraphEditorApp.pdb
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.GraphApp.resources
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.Properties.Resources.resources
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.GenerateResource.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.exe
+C:\Users\tftfj\source\repos\GraphEditorApp\obj\Debug\GraphEditorApp.pdb

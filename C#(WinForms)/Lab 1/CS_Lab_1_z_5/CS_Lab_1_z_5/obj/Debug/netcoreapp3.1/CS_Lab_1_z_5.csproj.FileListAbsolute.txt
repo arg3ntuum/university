@@ -1,0 +1,14 @@
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.exe
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.deps.json
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.runtimeconfig.json
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.runtimeconfig.dev.json
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.dll
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\bin\Debug\netcoreapp3.1\CS_Lab_1_z_5.pdb
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.csproj.AssemblyReference.cache
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.AssemblyInfoInputs.cache
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.AssemblyInfo.cs
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.csproj.CoreCompileInputs.cache
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.dll
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.pdb
+C:\Users\tftfj\source\repos\CS_Lab_1_z_5\CS_Lab_1_z_5\obj\Debug\netcoreapp3.1\CS_Lab_1_z_5.genruntimeconfig.cache
