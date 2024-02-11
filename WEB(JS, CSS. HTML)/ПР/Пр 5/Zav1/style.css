@@ -1,0 +1,39 @@
+body
+{
+background: url(https://static-cse.canva.com/blob/759807/vk1776.png);
+}
+.block
+{
+position: absolute;
+top: 10px;
+right: 10px;
+text-align: center;
+background: #EF63D2;
+border: solid 5px #90307E;
+border-radius:30px;
+width: 600px;
+height: 330px;
+font-size: 13mm;
+font-family: Comic Sans MS;
+color: #483D8B;
+
+}
+button
+{
+width: 590px;
+height: 80px;
+background-color: #E6E6FA;
+color: #483D8B;
+margin-top: 5px;
+font-size: 13mm;
+font-family: Comic Sans MS;
+transition-property:color, background-color:;
+border-radius:30px;
+border: solid 3px #3403C9;
+
+}
+button:hover
+{
+color: white;
+background-color: #6A5ACD;
+}

@@ -1,0 +1,45 @@
+body
+{
+background: url(https://images.trustinnews.pt/uploads/sites/5/2019/10/12133827cosmos.jpg);
+background-repeat: no-repeat;
+}
+.block
+{
+position: absolute;
+bottom: 20px;
+left: 20px;
+text-align: center;
+background: #43305E;
+border: solid 2mm #4A2352;
+width: 800px;
+height: 322px;
+border-radius: 30px;
+}
+.txt
+{
+color: rgb(180, 180, 180);
+font-size: 50px;
+font-family: Times;
+}
+button
+{
+width: 795px;
+height: 80px;
+background-color: #E6E6FA;
+color: #292442;
+font-size: 10mm;
+font-family: Times;
+transition-property:color, background-color;
+border-radius: 30px;
+}
+button:hover
+{
+color: rgb(180, 180, 180);
+background-color: #70359c;
+}
+hr
+{
+width: 795px;
+height: 4px;
+background-color: #4A2352;
+}

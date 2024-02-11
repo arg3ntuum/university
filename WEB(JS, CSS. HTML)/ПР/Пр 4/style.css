@@ -1,0 +1,49 @@
+body
+{
+background: #4B554A;
+font-family: Comic Sans MS;
+}
+.block
+{
+position: absolute;
+bottom:0%;
+right:0%;
+margin-left: -250px;
+margin-top: -85px;
+text-align: center;
+background: #2C2829;
+border: dashed 3px #031718;
+border-radius:30px;
+width: 700px;
+height: 280px;
+}
+.txt
+{
+color: #800000;
+font-size: 9mm;
+font-family: Comic Sans MS;
+font-style: italic;
+}
+button
+{
+width: 695px;
+height: 70px;
+background-color: #1E5A62;
+color:white;
+font-size:45px;
+transition-property:color, background-color;
+font-family: Comic Sans MS;
+border: dashed 2px #031718;
+border-radius:30px;
+}
+button:hover
+{
+color:black;
+background-color:white;
+}
+hr
+{
+height:1mm;
+background-color:#30524F;
+border-radius:10px;
+}

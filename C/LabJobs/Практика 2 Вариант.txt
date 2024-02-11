@@ -1,0 +1,276 @@
+6 ЛАБА
+
+
+Задание 1
+#include <stdio.h>
+#include <locale.h>
+/*Складіть програму, що друкує 1, якщо точка з
+координатами (х, у) лежить у середині кола (радіус r, центр у
+точці з координатами (а, b)), і 0 — в іншому випадку. Значення
+змінних a, b, r, x, y вводять з клавіатури.*/
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	int x = 0, y = 0, a = 0, b = 0, r = 0; //инициализировали, чтобы не было ошибок и это так правильно
+	printf("Введите координаты центра круга x y->\n");
+	scanf_s("%d %d", &a, &b);
+	printf("Введите радиус круга ->\n");
+	scanf_s("%d", &r);
+	printf("Введите координаты, чтобы проверить их местонахождение(1 - в круге, 0 - вне круга ->\n");
+	scanf_s("%d %d", &x, &y);
+	if ((x - a) * (x - a) + (y - b) * (y - b) < r * r)
+		return 1;
+	else
+		return 0;
+}
+
+
+Задание 2
+#include <stdio.h>
+#include <locale.h>
+/*Складіть програму, яка порівнює два числа і
+друкує повідомлення, яке з чисел більше, або «Числа рівні».
+*/
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	int a = 0, b = 0;
+	printf("Введите числа для сравнения\n");
+	scanf_s("%d %d", &a, &b);
+	if (a == b)
+		printf("Числа равны друг другу.");
+	else if (a > b)
+		printf("%d > %d", a, b);
+	else
+		printf("%d < %d", a, b);
+	return 0;
+}
+
+Задание 3
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int format = 0, shtuk = 0;
+	double stoimost = 0, znizka = 1;
+	printf("Фотографии\nФормат (1 - 9х12; 2 - 10х15) ->");
+	do { 
+		scanf_s("%d", &format);
+	} while (format >= 3 || format <= 0);
+
+	printf("Количество (шт) ->");
+	scanf_s("%d", &shtuk);
+
+	if (format == 1)
+		stoimost = 1.2;
+	else stoimost = 1.5;
+	printf("\n");
+	printf("Стоимость одной фотографии : %g грн.\n", stoimost);
+	printf("Количество:  %d шт.\n", shtuk);
+	printf("Сумма: %g грн.\n", (double)stoimost * shtuk);
+	
+	if (shtuk > 10) {
+		znizka = 0.95;
+		printf("Вам надається знижка 5%%.\n");
+	}
+	
+	printf("До сплати: %g грн.\n", (double)stoimost * shtuk * znizka);
+
+	return 0;
+}
+
+
+Задание 4
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int marka = 0, l = 0;
+	double cina = 0;
+	printf("Стоимость заправки\nМарка бензину (1 – 92; 2 – 95; 3 – 98; 4 – ДП) --->");
+	do {
+		scanf_s("%d", &marka);
+	} while (marka >= 5 || marka <= 0);
+
+	printf("Литров --->");
+	scanf_s("%d", &l);
+	switch (marka)
+	{
+	case 1: cina = 9.0; break;
+	case 2: cina = 9.5; break;
+	case 3: cina = 10.2; break;
+	case 4: cina = 10.0; break;
+	}
+	printf("Цена за литр: %g грн.\n", cina);
+	printf("Литров: %d.\n", l);
+	printf("До оплати: %g грн.\n", l * cina);
+
+	return 0;
+}
+
+
+7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА7 ЛАБА
+
+
+
+Задание 1
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	double g = 9.8, shag = 0.5, y = 0, t = 0, ogranicitel = 10.0;
+	
+	printf("------------------------\n");
+	printf("Время, с | Скорость, м/c\n");
+	
+	for (;t < ogranicitel; t += shag)
+	{
+		printf("------------------------\n");
+		y = g * t;
+		printf("%5.1f    | %5.1f\n", t, y);
+	}
+	return 0;
+}
+
+Задание 2
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	
+	int strochka = 0, stolbec = 0;
+	
+	printf("Введите количество строчек и столбцов -->");
+	scanf_s("%d %d", &strochka, &stolbec);
+	for (int i = 0; i < strochka;i++) {
+		for (int j = 0; j < stolbec;j++)
+			printf("* ");
+		printf("\n");
+		if (i % 2 == 0) {
+			printf(" ");
+		}
+	}
+	return 0;
+}
+
+Задание 3
+
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+	int summa = 0, i = 0,a = 0;
+	double  arif = 0;
+	while (1)
+	{
+		scanf_s("%d", &a);
+		if (a == 9999) {
+			a = 0;
+			arif = (double)summa / i;
+			break;
+		}
+		i++;
+		summa = summa + a;
+	}
+	printf("Арифметическое = %.2g", arif);
+	return 0;
+}
+
+
+Задание 4
+
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+
+    int factorial = 1, n = 1;
+    double e = 1, ogranichenie_e = 0, x = 0, x_vstep_n = 0;
+
+    printf("Введите E (0<E<1) и введите х (0<x<1)-->\n");//значения вводить через запятую!
+    scanf_s("%lf %lf", &ogranichenie_e, &x);
+    if (ogranichenie_e > 1 || ogranichenie_e < 0)
+    {
+        printf("Erorr. Неправильно введено ограничение Е.\n"); 
+        return 0;
+    }
+    if (x > 1 || x < 0)
+    {
+        printf("Erorr. Неправильно введен х.\n");
+        return 0;
+    }
+    //printf("%lf %lf\n", ogranichenie_e, x);
+
+    for (double uslovie_proverki = 0;;n++)
+    {
+        factorial = factorial * n;
+        
+        //cчитаем x^n
+        if (n > 1) {
+            for (int n2 = 1; n2 <= n; n2++)
+                x_vstep_n = x * x;
+        }
+        else if (n == 1)
+            x_vstep_n = x;
+        else;
+
+
+        uslovie_proverki = x_vstep_n / factorial;
+
+        if (uslovie_proverki < ogranichenie_e)
+        {
+            break;
+        }
+        else;
+        
+        
+        e = e + (x_vstep_n / factorial);
+        printf("%.10lf\n", e);
+    }
+    
+	return 0;
+}
+
+
+Задание 5
+#include <stdio.h>
+#include <locale.h>
+#include <time.h>
+
+/*дана послідовність зі 100 цілих чисел. Визначити кількість чисел у найдовшій послідовності з нулів, розташованих підряд.*/
+int main()
+{
+	setlocale(LC_ALL, "Rus");
+	srand(time(NULL));
+
+	int chislo = 0, schetchik = 0, max_poslidovnist = 0;
+	
+	for (int i = 0;i < 100;i++)
+	{
+		chislo = 0 + rand() % 2;
+		printf("%d ", chislo);
+		if (chislo == 0)
+			schetchik++;
+		else schetchik = 0;
+		if (max_poslidovnist < schetchik)
+			max_poslidovnist = schetchik;
+
+	}
+	printf("\nМаксильмальная последовательность нулей = %d", max_poslidovnist);
+	return 0;
+}

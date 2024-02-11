@@ -1,0 +1,40 @@
+body
+{
+background: url(https://img5.goodfon.ru/wallpaper/nbig/1/47/zvezdy-chastitsy-polet-vspyshka-vselennaia-kosmos-prostranst.jpg) no-repeat;
+background-size: 100%;
+}
+.block
+{
+position: absolute;
+top: 20px;
+right: 20px;
+text-align: center;
+background: #070A1D;
+border: solid 6px #1C2549;
+border-radius:30px;
+width: 410px;
+height: 270px;
+}
+.txt
+{
+color: white;
+font-size: 13mm;
+font-family: Comic Sans MS;
+}
+button
+{
+width: 400px;
+height: 80px;
+background-color: #E6E6FA;
+color: #483D8B;
+font-size: 13mm;
+font-family: Comic Sans MS;
+transition-property:color, background-color;
+border: solid 3px #1C2549;
+border-radius:30px;
+}
+button:hover
+{
+color: white;
+background-color: #502D6A;
+}

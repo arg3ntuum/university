@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Практичнна робота №7</title>
+<style>
+body
+{
+background: #4181ac;
+}
+hr
+{
+border:solid 1px #120841;
+}
+.block
+{
+position: absolute;
+bottom: 20px;
+left: 20px;
+background: #2f5d7c;
+border: solid 2mm #120841;
+border-radius: 30px;
+width: 360px;
+height: 212px;
+}
+h1
+{
+text-align: center;
+font-size: 30mm;
+font-family: Comic Sans MS;
+font-weight: bold;
+}
+.txt
+{
+font-size: 15px;
+font-family: Comic Sans MS;
+}
+</style>
+<script>
+function colorBlue()
+{
+    document.body.style.background = "blue";
+}
+function colorRed()
+{
+    document.body.style.background = "red";
+}
+function colorYellow()
+{
+    document.body.style.background = "yellow";
+}
+function colorGreen()
+{
+    document.body.style.background = "green";
+}
+function picture()
+{
+    let fon=document.createAttribute("style");
+    fon.value = 'background:url(https://focus.ua/static/storage/thumbs/920x465/4/06/39f2bade-723c57083305190737254934fe2a4064.jpeg?v=3358_1);background-size:cover';
+    document.getElementById("bod").setAttributeNode(fon);
+}
+function named()
+{
+let name = window.document.title;
+alert(name);
+}
+function url()
+{
+let url = window.document.URL;
+alert(url);
+} 
+function color_txt()
+{
+let color1 = document.createAttribute("style");
+color1.value="color:white;";
+let zagolovok=document.getElementsByTagName("h1")[0];
+zagolovok.setAttributeNode(color1);
+}
+</script>
+
+</head>
+<body id = "bod">
+<h1>Властивості об'єкту document</h1>
+<div class="block">
+<input type="radio" onclick="colorBlue()"><em class="txt">Синій</em><br>
+<input type="radio" onclick="colorRed()"><em class="txt">Червоний</em><br>
+<input type="radio" onclick="colorYellow()"><em class="txt">Жовтий</em><br>
+<input type="radio" onclick="colorGreen()"><em class="txt">Зелений</em><br>
+<input type="radio" onclick="picture()"><em class="txt">Графічний</em><br>
+<hr>
+<input type="radio" onclick="url()"><em class="txt">Показати URL адресу документу</em><br>
+<input type="radio" onclick="named()"><em class="txt">Показати назву документу</em><br>
+<hr>
+<input type="radio" onclick="color_txt()"><em class="txt">Змінити колір заголовку</em>
+</div>
+</body>
+</html>

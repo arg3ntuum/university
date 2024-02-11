@@ -1,0 +1,21 @@
+body{
+background: #ffeedd;
+}
+.Block{
+border: solid 1mm blue;
+width: 700px;
+height: 400px;
+position: absolute;
+left: 30%;
+top: 20%;
+background: url(https://ic.pics.livejournal.com/moonflower512/84697056/45540/45540_760.jpg);
+background-size: 100%;
+
+text-align: center;
+}
+.text{
+font-size: 15mm;
+color: red;
+font-family:Arial;
+font-style:italic;
+}

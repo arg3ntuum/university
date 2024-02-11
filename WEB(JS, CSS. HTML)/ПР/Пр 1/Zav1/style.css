@@ -1,0 +1,100 @@
+body
+{
+background: #ddeeff;
+ font-family:Aerial, sans-serif;
+}
+img
+{
+	position:absolute;
+	z-index:1;
+}
+.block{
+	position:absolute;
+	/*margin-left:50%;
+	margin-top:40%;так как на моем ноутбуке это отображается некоретно, использую конкретные цифры */
+	margin-left:50%;
+	margin-top:200px;
+	width:400px;
+	height:200px;
+	border: 1.5mm solid red;
+	font-size:8mm;
+	color:#770000;
+	transition-property:all;
+	background: #ddeeff;
+}
+.block:hover{
+	width:800px;
+	border:1.5mm solid green;
+	transform: rotate(30deg);
+}
+img:hover{
+	position:absolute;
+	width:400px;
+	margin:10px;
+	margin-right:10px;
+	bottom: 10px;
+    right: 10px;
+	border: 2mm inset yellow;
+}
+.but{
+position:absolute;
+margin-bottom:40px;
+margin-left:40px;
+bottom:0;
+width:500px;
+height:50px;
+background-color:#000044;
+color:white;
+font-size:45px;
+z-index:2;
+}
+.but:hover{
+	color:red;
+	background-color:blue;
+}
+.txt{
+	margin-top:70px;
+	transition-property:all;
+}
+.txt:hover{
+	font-size:10mm;
+	color:blue;
+}
+
+table
+{
+width: 50%;
+height: 30%;
+border: solid 2mm black;
+position: absolute;
+right: 20px;
+top: 20px;
+border-collapse: collapse;
+background: #ddeeff;
+}
+td
+{
+border: solid 1mm lightgray ;
+text-align: center;
+transition-property:color, background; 
+}
+em
+{
+font-family: Arial;
+font-size: 20mm;
+font-weight: 900;
+font-style: normal;
+}
+td:hover
+{
+color:red;
+background: green;
+}
+tr
+{
+transition-property: background;
+}
+tr:hover
+{
+background: yellow;
+}

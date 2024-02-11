@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_29_2\main.c(18,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\Kur_29_2\main.c(33,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Kur_29_2.vcxproj -> C:\Users\tftfj\source\repos\Kur_29_2\Debug\Kur_29_2.exe

@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_6_1\main.c(60,32): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\tftfj\source\repos\Kur_6_1\main.c(115,32): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  Kur_6_1.vcxproj -> C:\Users\tftfj\source\repos\Kur_6_1\Debug\Kur_6_1.exe

@@ -1,0 +1,103 @@
+.menu {
+    font-style: Comic Sans MS;
+    width: 300px;
+    height: 400px;
+    background-color: #DCDCDC;
+    border: solid 2mm #03274B;
+    border-radius: 30px ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+label {
+    color: #252336;
+    font-size: 9mm;
+    
+}
+
+input {
+    font-style: Comic Sans MS;
+    width: 15px;
+    height: 15px;
+}
+
+hr {
+    height: 3px;
+    background-color: #03274B;
+}
+
+.pole1 {
+    width: 200px;
+    height: 26px;
+    background-color: white;
+    border: lightgray 1mm solid;
+    font: 6mm Comic Sans MS;
+    color: #252336;
+    position: absolute;
+    top: 212px;
+    left: 60px;
+}
+
+.pole2 {
+    width: 200px;
+    height: 26px;
+    background-color: transparent;
+    border: transparent;
+    font: 6mm Comic Sans MS;
+    color: #252336;
+    position: absolute;
+    top: 252px;
+    left: 60px;
+}
+
+.p1 {
+    font-style: Comic Sans MS;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+}
+
+.p2 {
+    font-style: Comic Sans MS;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+.b1 {
+    width: 290px;
+    height: 50px;
+    background: #E6E6FA;
+    border: solid 2mm white;
+    font: 7mm Comic Sans MS;
+    color: #252336;
+    transition-property: color, background;
+    position: absolute;
+    top: 290px;
+    left: 5px;
+}
+
+.b1:hover {
+    color: white;
+    background: #6A5ACD;
+}
+
+.b2 {
+    width: 290px;
+    height: 50px;
+    background: #E6E6FA;
+    border: solid 2mm white;
+    font: 7mm Comic Sans MS;
+    color: #252336;
+    transition-property: color, background;
+    position: absolute;
+    top: 344px;
+    left: 5px;
+}
+
+.b2:hover {
+    color: white;
+    background: #6A5ACD;
+}

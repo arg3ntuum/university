@@ -1,0 +1,53 @@
+body {
+    background: #b4bbc2;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.image {
+    width: 600px;
+    border: 5px solid grey;
+    border-radius: 5px ;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.anuran {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.shape{
+    width: 60px;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    font: 8mm Comic Sans Ms;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+}
+
+.but {
+    width: 400px;
+    height: 50px;
+    background: #979EA7;
+    border: solid 2mm #5E443E;
+    border-radius: 20px;
+    font: 7mm Comic Sans Ms;
+    color: #9D6B55;
+    transition-property: color, background;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.but:hover {
+    color: #5E443E;
+    background: #9D6B55;
+}

@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_18_4\main.c(87,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\Kur_18_4\main.c(151,96): warning C4020: puts: слишком много фактических параметров
+C:\Users\tftfj\source\repos\Kur_18_4\main.c(184,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Kur_18_4.vcxproj -> C:\Users\tftfj\source\repos\Kur_18_4\Debug\Kur_18_4.exe

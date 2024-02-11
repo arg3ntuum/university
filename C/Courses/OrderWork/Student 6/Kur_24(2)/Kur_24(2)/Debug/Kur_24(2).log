@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем main.c выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — ..\..\main.c, ..\main.c.
+  main.c
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(17,31): warning C4013: strlen: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(18,14): warning C4013: atoi: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(32,7): warning C4013: srand: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(35,24): warning C4013: rand: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(84,8): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(89,31): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\tftfj\source\repos\Kur_24(2)\main.c(120,6): warning C4013: free: нет определения; предполагается "extern" с возвратом типа "int"
+  Kur_24(2).vcxproj -> C:\Users\tftfj\source\repos\Kur_24(2)\Debug\Kur_24(2).exe

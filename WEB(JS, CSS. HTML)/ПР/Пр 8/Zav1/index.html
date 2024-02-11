@@ -1,0 +1,22 @@
+﻿<!doctype html>
+<html>
+<meta charset="windows-1251"/>
+<title>Калькулятор</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="script.js"></script>
+<body onload="clockTimer()">
+<div class ="calc"><center>
+<form>
+<input type="text" class="tablo" id="dd"/><br/>
+<input type="button" value="0" class="b1" onClick="vv(0)"/><input type="button" value="1" class="b1" onClick="vv(1)"/><input type="button" value="2" class="b1" onClick="vv(2)"/><input type="button" value="3" class="b1" onClick="vv(3)"/><br/>
+<input type="button" value="4" class="b1" onClick="vv(4)"/><input type="button" value="5" class="b1" onClick="vv(5)"/><input type="button" value="6" class="b1" onClick="vv(6)"/><input type="button" value="7" class="b1" onClick="vv(7)"/>
+<input type="button" value="8" class="b1" onClick="vv(8)"/><input type="button" value="9" class="b1" onClick="vv(9)"/><input type="button" value="." class="b1" onClick="vv('.')"/><input type="button" value="кор." class="b1" onClick="kor()"/>
+<input type="button" value="+" class="b2" onClick="sum()"/><input type="button" value="-" class="b2" onClick="dif()"/><input type="button" value="х" class="b2" onClick="mul()"/><input type="button" value=":" class="b2" onClick="dil()"/><br>
+<hr>
+<input type="button" value="=" class="b3" onClick="det()"/><input type="button" value="Скидання" class="b4" onClick="cle()"/>
+</form></center></div>
+<div class="clockpage">
+    <span id="clock"></span>
+    <span id="dayOfWeek"></span>
+  </div>
+</body></html>

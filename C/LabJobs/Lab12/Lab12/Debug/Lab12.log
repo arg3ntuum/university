@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Lab12\main.c(244,22): warning C4020: puts: слишком много фактических параметров
+C:\Users\tftfj\source\repos\Lab12\main.c(251,22): warning C4020: puts: слишком много фактических параметров
+C:\Users\tftfj\source\repos\Lab12\main.c(265,22): warning C4020: puts: слишком много фактических параметров
+C:\Users\tftfj\source\repos\Lab12\main.c(191): warning C4715: displayChoiseFamilia: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12\main.c(177): warning C4715: displayChoiseNazva: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12\main.c(205): warning C4715: displayChoiseVidav: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12\main.c(367): warning C4715: vstup: значение возвращается не при всех путях выполнения
+  Lab12.vcxproj -> C:\Users\tftfj\source\repos\Lab12\Debug\Lab12.exe

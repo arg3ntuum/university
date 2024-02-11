@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_29_1\main.c(20,28): warning C4090: =: разные квалификаторы "const"
+C:\Users\tftfj\source\repos\Kur_29_1\main.c(21,28): warning C4090: =: разные квалификаторы "const"
+C:\Users\tftfj\source\repos\Kur_29_1\main.c(28,28): warning C4090: return: разные квалификаторы "const"
+  Kur_29_1.vcxproj -> C:\Users\tftfj\source\repos\Kur_29_1\Debug\Kur_29_1.exe

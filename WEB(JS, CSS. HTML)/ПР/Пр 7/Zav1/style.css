@@ -1,0 +1,31 @@
+body
+{
+background: #4181ac;
+}
+hr
+{
+border:solid 1px #120841;
+}
+.block
+{
+position: absolute;
+bottom: 20px;
+left: 20px;
+background: #2f5d7c;
+border: solid 2mm #120841;
+border-radius: 30px;
+width: 360px;
+height: 212px;
+}
+h1
+{
+text-align: center;
+font-size: 30mm;
+font-family: Comic Sans MS;
+font-weight: bold;
+}
+.txt
+{
+font-size: 15px;
+font-family: Comic Sans MS;
+}

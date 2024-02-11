@@ -1,0 +1,46 @@
+body {
+    background-image: url(http://storge.pic2.me/cm/2560x1440/652/5845d44193214.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 50mm;
+    color: lightgray;
+    -webkit-text-stroke: 2mm white;
+}
+
+.room {
+    width: 98.5%;
+    height: 40%;
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    background-color: white;
+    border: solid 5px #00344C;
+    border-radius: 30px;
+}
+
+.shape {
+    width: 80px;
+    height: 60px;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    border-radius: 30px;
+    font: 16mm Arial;
+    color: #00344C;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}

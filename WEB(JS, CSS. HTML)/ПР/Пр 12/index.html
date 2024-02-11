@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html>
+<meta charset="windows-1251" />
+<title>Калькулятор 2.0</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="script.js"></script>
+
+<body id="shtorka" onload="fon()">
+    <div class="menu">
+        <input type="radio" onclick="block_sin()">
+        <label>sin(x)</label><br>
+        <input type="radio" onclick="block_cos()">
+        <label>cos(x)</label><br>
+        <input type="radio" onclick="block_ln()">
+        <label>ln(x)</label><br>
+        <input type="radio" onclick="block_e()">
+        <label>e<sup>x</sup></label><br>
+        <input type="radio" onclick="block_random()">
+        <label>random()</label><br>
+        <hr>
+        <div class="block1" id="block1">
+            <label class="p1">x = </label><input type="text" value="" class="pole1" id="pole1" /><br>
+            <label class="p2">y = </label><input type="text" value="" class="pole2" id="pole2" />
+            <input type="button" value="Розрахувати" class="b1" onclick="sin_kyta()" />
+            <input type="button" value="Скидання" class="b2" onclick="skid()" />
+        </div>
+        <div class="block2" id="block2">
+            <label class="p1">x = </label><input type="text" value="" class="pole1" id="pole3" /><br>
+            <label class="p2">y = </label><input type="text" value="" class="pole2" id="pole4" />
+            <input type="button" value="Розрахувати" class="b1" onclick="cos_kyta()" />
+            <input type="button" value="Скидання" class="b2" onclick="skid()" />
+        </div>
+        <div class="block3" id="block3">
+            <label class="p1">x = </label><input type="text" value="" class="pole1" id="pole5" /><br>
+            <label class="p2">y = </label><input type="text" value="" class="pole2" id="pole6" />
+            <input type="button" value="Розрахувати" class="b1" onclick="natural_logarifm()" />
+            <input type="button" value="Скидання" class="b2" onclick="skid()" />
+        </div>
+        <div class="block4" id="block4">
+            <label class="p1">x = </label><input type="text" value="" class="pole1" id="pole7" /><br>
+            <label class="p2">y = </label><input type="text" value="" class="pole2" id="pole8" />
+            <input type="button" value="Розрахувати" class="b1" onclick="e_stepenx()" />
+            <input type="button" value="Скидання" class="b2" onclick="skid()" />
+        </div>
+        <div class="block5" id="block5">
+            <label class="p1">randomnumber</label><br>
+            <label class="p2">y = </label><input type="text" value="" class="pole2" id="pole9" />
+            <input type="button" value="Розрахувати" class="b1" onclick="random_number()" />
+        </div>
+    </div>
+</body>
+
+</html>

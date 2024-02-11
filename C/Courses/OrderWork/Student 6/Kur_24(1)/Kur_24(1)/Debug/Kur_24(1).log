@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_24(1)\Kur_24(1)\main.c(48,8): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  Kur_24(1).vcxproj -> C:\Users\tftfj\source\repos\Kur_24(1)\Debug\Kur_24(1).exe

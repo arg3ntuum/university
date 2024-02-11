@@ -1,0 +1,39 @@
+img {
+    width: 1000px;
+    border: solid 2mm #35223E;
+    border-radius: 30px;
+}
+
+body {
+    background: url(https://s.zagranitsa.com/images/blogs/3336/original/b18d28b9341d08e2e95a22dd78a747a6.jpg?1477684813);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.base {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 690px;
+    height: 200px;
+    background: #A66E53;
+    border: solid 2mm #35223E;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.button {
+    width: 690px;
+    height: 100px;
+    background: rgb(224, 203, 203);
+    border: solid 2px #35223E;
+    border-radius: 20px;
+    font: 10mm Arial;
+    color: #35223E;
+    transition-property: color, background;
+}
+
+.button:hover {
+    color: rgb(224, 203, 203);
+    background: #A66E53;
+}

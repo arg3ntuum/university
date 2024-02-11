@@ -1,0 +1,8 @@
+Virobnik 25 29 7 2022 90 SAMSUNG 
+Virobnik 22 1 8 2022 90 LG 
+Virobnik 15 1 8 2022 90 LG 
+Virobnik 31 18 8 2022 90 LENOVO 
+Virobnik 13 9 9 2022 90 LG 
+Virobnik 10 9 9 2022 90 LG 
+Virobnik 29 25 9 2022 90 SONY 
+- 0 0 0 0 0 -

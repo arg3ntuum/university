@@ -1,0 +1,7 @@
+body{background:url(https://wallpaperaccess.com/full/1396544.jpg);background-size: 100%}
+.block{width:420px;
+    height:460px;background:#4847A4;border: solid 2mm #A03D5D;border-radius:30px;position:absolute;top:50%;left: 50%; margin: -215px 0 0 -210px;}
+.but{width:15px;height:15px;background:#E6E6FA;color:#5543ad;transition-property:color, background;position:relative;left: 150px;}
+.but:hover{color: #D9CCFD;background: #6A5ACD;}
+label{font: 40px Comic Sans MS;color:#D9CCFD;position:relative;left: 155px;}
+.txt{font: 45px Comic Sans MS;color:#D9CCFD;text-align: center;}

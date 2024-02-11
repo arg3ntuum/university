@@ -1,0 +1,114 @@
+body {
+    background-image: url("https://static.wikia.nocookie.net/vedmak/images/8/8e/%D0%9A%D0%A0%D0%92%D0%A2%D0%BE%D0%BF%D0%B8%D0%923.png/revision/latest?cb=20190712152715");
+    background-size: cover;
+    background-size: 100%;
+}
+.Podpis{
+    border-radius: 20px;
+    width: 240px;
+    height: 140px;
+    background-color: #91BFCC;
+    border: solid 3px #48808F;
+    position: relative;
+    top: 64%;
+    left: 59%;
+}
+.PhotoAlbum {
+    width: 600px;
+    height: 400px;
+    background-image: url("https://www.dubna.ru/sites/default/files/articles/2022/02/10/17282.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    border: solid 2mm #2F4552;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+}
+
+.KonecAlbum {
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #91BFCC;
+    border: solid 2mm #2F4552;
+    z-index: -6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+}
+
+.img1 {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    z-index: -2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    border: solid 2mm #2F4552;
+}
+
+.img2 {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    z-index: -3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    border: solid 2mm #2F4552;
+}
+
+.img3 {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    z-index: -4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    border: solid 2mm #2F4552;
+}
+
+.img4 {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    z-index: -5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    border: solid 2mm #2F4552;
+}
+
+label {
+    font: 25px Comic Sans MS;
+    color: white;
+}
+
+input {
+    width: 290px;
+    height: 50px;
+    background: #91BFCC;
+    border-radius: 30px;
+    border: solid 2mm #91BFCC;
+    font: 25px Comic Sans MS;
+    color: #48808F;
+    transition-property: color, background;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+input:hover {
+    color: #91BFCC;
+    background: #48808F;
+}

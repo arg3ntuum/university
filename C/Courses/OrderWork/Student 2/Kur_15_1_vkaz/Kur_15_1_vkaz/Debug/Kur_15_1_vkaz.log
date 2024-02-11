@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_15_1_vkaz\main.c(32,9): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+  Kur_15_1_vkaz.vcxproj -> C:\Users\tftfj\source\repos\Kur_15_1_vkaz\Debug\Kur_15_1_vkaz.exe

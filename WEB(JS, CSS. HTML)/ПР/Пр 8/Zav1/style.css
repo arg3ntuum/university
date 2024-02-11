@@ -1,0 +1,99 @@
+body{
+    background:url(https://i0.wp.com/www.eastmojo.com/wp-content/uploads/2021/12/yellow-gcb97c245c_1280.jpg?fit=1200%2C675&ssl=1);
+    background-size: 100%
+}
+.calc{
+    width:150mm;
+    height:195mm;
+    background:#E1AC4C;
+    border: solid 5px #CF941C;
+    position:absolute;
+    top:20px;
+    right: 20px;
+    border-radius: 20px;
+}
+.tablo{
+    width:144mm;
+    height:30mm;
+    background:white;
+    position:relative;
+    top:3mm;
+    border:solid 1.5mm #E9DCFA;
+    font:28mm Arial;
+    color:black;
+    text-align:right;
+    border-radius: 20px;
+}
+.b1{
+    width:30mm;
+    height:30mm;
+    background:#E6E6FA;
+    border:solid 2mm white;
+    font:15mm Arial;
+    color: #514F3B;
+    position:relative;
+    top:5mm;
+    transition-property:color, background;
+    border-radius: 20px;
+}
+.b2{
+    width:30mm;
+    height:30mm;
+    background:#E6E6FA;
+    border:solid 2mm white;
+    font:14mm Arial;
+    color: #514F3B;
+    position:relative;
+    top:5mm;
+    transition-property:color, background;
+    border-radius: 20px;
+}
+.b3{
+    width:30mm;
+    height:30mm;
+    background:#E6E6FA;
+    border:solid 2mm white;
+    font:15mm Arial;
+    color: #514F3B;
+    position:relative;
+    top:3mm;
+    transition-property:color, background;
+    border-radius: 20px;
+}
+.b4{
+    width:90mm;
+    height:30mm;
+    background:#E6E6FA;
+    border:solid 2mm white;
+    font:15mm Arial;
+    color: #514F3B;
+    position:relative;
+    top:3mm;
+    transition-property:color, background;
+    border-radius: 20px;
+}
+hr{
+    background-color: #CF941C;
+     height: 4px;
+     position:relative;
+     top: 4mm
+    }
+.b1:hover{color: white;background: #B2B5EC;}
+.b2:hover{color: white;background: #B2B5EC;}
+.b3:hover{color: white;background: #B2B5EC;}
+.b4:hover{color: white;background: #B2B5EC;}
+
+
+.clockpage
+{
+position:absolute;
+bottom: 20px;
+left: 20px;
+color: #514F3B;
+background: white;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+font-size: 40mm;
+border: solid 5px #CF941C;
+border-radius: 40px;
+}

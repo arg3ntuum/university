@@ -1,0 +1,43 @@
+body
+{
+background: url(https://oir.mobi/uploads/posts/2021-03/1616548867_4-p-matematicheskii-fon-5.jpg);
+background-size: 100%;
+font-family: Comic Sans MS, sans-serif;
+}
+.block
+{
+text-align: center;
+background: #488091;
+border: dashed 7px #1E4482;
+border-radius:70px;
+width: 900px;
+height: 370px;
+}
+.zag
+{
+color: white;
+font-size: 9mm;
+font-weight: 900px;
+}
+button
+{
+width: 650px;
+height: 120px;
+border: dashed 3px #1E4482;
+border-radius:70px;
+background-color: #314452;
+color:white;
+font-size:45px;
+transition-property:color, background-color:;
+font-family: Comic Sans MS, sans-serif;
+}
+button:hover
+{
+color:black;
+background-color:white;
+}
+hr
+{
+height:1mm;
+background-color:white;
+}

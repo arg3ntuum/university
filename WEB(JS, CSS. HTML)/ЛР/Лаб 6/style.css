@@ -1,0 +1,102 @@
+body{
+    background: url(https://s.zagranitsa.com/images/blogs/3336/original/b18d28b9341d08e2e95a22dd78a747a6.jpg?1477684813);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.base{
+    width: 300px;
+    height: 415px;
+    background:#A66E53;
+    border: solid 2mm #35223E;
+    border-radius: 30px;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    }
+.getter {
+    width: 500px;
+    height: 400px;
+    background: #A66E53;
+    border: solid 2mm #35223E;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.writer {
+    width: 500px;
+    height: 400px;
+    background: #A66E53;
+    border: solid 2mm #35223E;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+label {
+    font: 10mm Comic Sans Ms;
+    color: #E6E6FA;
+    text-align: center;
+}
+.txt {
+    font: 15mm Comic Sans Ms;
+    color: #E6E6FA;
+    text-align: center;
+}
+.but {
+    width: 290px;
+    height: 30mm;
+    background: #E6E6FA;
+    border: solid 2mm white;
+    border-radius: 40px;
+    font: 15mm Comic Sans Ms;
+    color: #35223E;
+    transition-property: color, background;
+}
+.but:hover {
+    color: white;
+    background: #483252;
+}
+.but1 {
+    width: 280px;
+    height: 20px;
+    font-size: 5mm;
+    color: #35223E;
+    border: #35223E 2px solid;
+    border-radius:10px;
+}
+.but2 {
+    width: 20px;
+    height: 20px;
+}
+.but3 {
+    width: 290px;
+    height: 50px;
+    background: #E6E6FA;
+    border: solid 2mm white;
+    border-radius: 30px;
+    font: 7mm Comic Sans Ms;
+    color: #35223E;
+    transition-property: color, background;
+}
+.but3:hover {
+    color: white;
+    background: #483252;
+}
+.check {
+    font: 7mm Comic Sans Ms;
+    color: #E6E6FA;
+}
+hr {
+    background-color: #35223E;
+    width: 270px;
+    height: 5px;
+    border: #35223E;
+    border-radius: 5px;
+}
+textarea {
+    width: 480px;
+    height: 250px;
+    border: #35223E 2px solid;
+    border-radius:10px;
+}

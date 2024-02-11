@@ -1,0 +1,33 @@
+body
+{
+background: #bbffaa;
+}
+.Block
+{
+width: 700px;
+height: 200px;
+position: absolute;
+left: 10px;
+top: 10px;
+background: #aabbcc;
+}
+
+button
+{
+widht:680px;
+height: 60px;
+background:#000040;
+font-size: 45px;
+color:white;
+width:97%;
+transition-property:color, background; 
+}
+button:hover
+{
+color: yellow;
+background: blue;
+} 
+.fix
+{
+margin-top: 10px;
+}

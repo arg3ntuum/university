@@ -1,0 +1,33 @@
+body
+{
+background: #ddeeff;
+}
+img
+{
+border: groove 2mm yellow;
+position: absolute;
+top: 80mm;
+left: 100mm;
+width: 600px;
+}
+.Block
+{
+width: 630px;
+height: 500px;
+position: absolute;
+top: 80mm;
+left: 100mm;
+background: black;
+transition-property:opacity;
+transition-duration:10s;
+}
+h
+{
+color: white;
+font-size: 10mm;
+font-weight: 900;
+}
+.Block:hover
+{
+opacity: 0;
+}

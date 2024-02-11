@@ -1,0 +1,53 @@
+body
+{
+ background: url(https://wallbox.ru/resize/1680x1050/wallpapers/main2/201731/15017451255982cfe5ebaf90.18040903.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.block
+{
+position: absolute;
+top:50%;
+left:50%;
+margin-left: -400px;
+margin-top: -125px;
+text-align: center;
+background: #7D5681;
+border: solid 5px #CD9BD5;
+border-radius:50px;
+width: 800px;
+height: 300px;
+
+}
+.txt
+{
+color: Snow;
+font-size: 10mm;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+
+}
+button
+{
+width: 796px;
+height: 80px;
+background-color: #E6E6FA;
+color: #483D8B;
+font-size: 10mm;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+transition-property:color, background-color:;
+border: solid 2px #CD9BD5;
+border-radius:50px;
+}
+button:hover
+{
+color: white;
+background-color: #BDA0DB;
+}
+hr
+{
+width: 796px;
+height: 4px;
+background-color: #B07EAF;
+}

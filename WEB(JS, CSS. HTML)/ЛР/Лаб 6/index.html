@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body onLoad="zafokusit()">
+<div class="base">
+<div class="txt">Пошта</div>
+<hr>
+<label>Логін</label><br/>
+<input type="text" class="but1" id="log" required/><br/>
+<label>Пароль</label><br/>
+<input type="password" class="but1" id="pass" required/><br/>
+<input type="checkbox" class="but2" id="check"/><label class="check">Запам'ятай мене</label>
+<center>
+<input type="button" value="Увійти" class="but" onClick="writeLog()"/>
+</center>
+</div>
+<div class="getter">
+<div class="txt">Отримувач</div>
+<center>
+<textarea id="otrumyvach"></textarea>
+</center>
+</div>
+<div class="writer" id="writer">
+<div class="txt">Напишіть листа</div>
+<center>
+<textarea id="otpravit"></textarea>
+<input type="button" value="Відправити" class="but3" onClick="poshtovaSkrinka()"/>
+</center>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Nazva 1 30 12 2000 4 30000 Prizvishe IM`YA PO-BATKOVI
+MiddleAfrica 3000 31 06 2023 10 90000 Auchleg Ushwiz Anderson
+Makedonia 3000 31 06 2022 10 80900 Borodin Konstantyn Anderson
+Croatia 3000 31 09 2022 10 40400 Auchleg Ushwiz Anderson
+Germany 3000 31 10 2023 10 65000 Auchleg Ushwiz Anderson
+- 0 0 0 0 0 0 - - -

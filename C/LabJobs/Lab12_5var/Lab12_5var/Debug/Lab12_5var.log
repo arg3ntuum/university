@@ -1,0 +1,11 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(350): warning C4715: displayChoiseImya: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(336): warning C4715: displayChoiseFamilia: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(364): warning C4715: displayChoiseOtchestvo: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(378): warning C4715: displayChoiseAddressCountry: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(392): warning C4715: displayChoiseAddressTown: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(406): warning C4715: displayChoiseAddressVulica: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(420): warning C4715: displayChoiseAddressHouse: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(434): warning C4715: displayChoiseAddressKvartira: значение возвращается не при всех путях выполнения
+C:\Users\tftfj\source\repos\Lab12_5var\main.c(448): warning C4715: displayChoiseOsvita: значение возвращается не при всех путях выполнения
+  Lab12_5var.vcxproj -> C:\Users\tftfj\source\repos\Lab12_5var\Debug\Lab12_5var.exe

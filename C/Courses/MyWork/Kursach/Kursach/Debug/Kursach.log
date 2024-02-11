@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kursach\main.c(22,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\tftfj\source\repos\Kursach\main.c(602,39): warning C4047: =: "int" отличается по уровням косвенного обращения от "char *"
+C:\Users\tftfj\source\repos\Kursach\main.c(604,39): warning C4047: =: "int" отличается по уровням косвенного обращения от "char *"
+C:\Users\tftfj\source\repos\Kursach\main.c(606,40): warning C4047: =: "int" отличается по уровням косвенного обращения от "char *"
+C:\Users\tftfj\source\repos\Kursach\main.c(715,21): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\tftfj\source\repos\Kursach\main.c(103): warning C4715: initArrayStart: значение возвращается не при всех путях выполнения
+  Kursach.vcxproj -> C:\Users\tftfj\source\repos\Kursach\Debug\Kursach.exe

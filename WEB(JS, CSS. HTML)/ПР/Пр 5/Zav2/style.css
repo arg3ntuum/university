@@ -1,0 +1,61 @@
+body
+{
+background: url(https://bipbap.ru/wp-content/uploads/2017/05/01101425.jpg);
+}
+.block
+{
+width: 560px;
+height: 420px;
+border: solid 2mm #091344;
+border-radius:30px;
+background: #003A94;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.txt
+{
+width: 500px;
+background: #9492F3;
+border-radius:30px;
+color: white;
+font-size: 40px;
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+button
+{
+width: 550px;
+height: 80px;
+background-color: #E6E6FA;
+border: solid 3px;
+border-radius:30px;
+color: #483D8B;
+font-size: 40px;
+font-family: Comic Sans MS, Comic Sans, cursive;
+transition-property:color, background-color:;
+}
+button:hover
+{
+color: white;
+background-color: #6A5ACD;
+}
+li
+{
+color: white;
+font-size: 6mm;
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+a
+{
+color: #FF1493;
+font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+a:visited
+{
+color: red;
+}
+a:hover
+{
+color: white;
+}

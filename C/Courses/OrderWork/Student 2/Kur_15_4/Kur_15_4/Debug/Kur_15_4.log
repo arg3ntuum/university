@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\tftfj\source\repos\Kur_15_4\main.c(114,91): warning C4020: puts: слишком много фактических параметров
+C:\Users\tftfj\source\repos\Kur_15_4\main.c(209,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\tftfj\source\repos\Kur_15_4\main.c(265,14): warning C4098: takeNoLection: функция типа "void", возвращающая значение
+  Kur_15_4.vcxproj -> C:\Users\tftfj\source\repos\Kur_15_4\Debug\Kur_15_4.exe
