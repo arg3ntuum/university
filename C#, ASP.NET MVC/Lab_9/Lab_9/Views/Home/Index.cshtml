@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Lab_9.Models.Immovables>
+<p><a asp-action="Create"> Додати користувача </a></p>
+<table class="table">
+
+    <tr>
+        <th><a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">Ім'я</a></th>
+        <th><a asp-action="Index" asp-route-sortOrder="@ViewData["TypeSortParm"]">Тип</a></th>
+        <th><a asp-action="Index" asp-route-sortOrder="@ViewData["ClassSortParm"]">Клас</a></th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Type</td>
+            <td>@item.Class</td>
+
+            <td>
+                <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id"> Змінити </a>
+            </td>
+
+            <td>
+                <form asp-controller="Home" asp-action="Delete" method="post" asp-route-id="@item.Id">
+                    <input type="submit" value=" Видалити " />
+                </form>
+            </td>
+        </tr>
+    }
+</table>

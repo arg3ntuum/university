@@ -1,0 +1,32 @@
+﻿@model Lab_9.Models.Immovables
+
+<h2> Редагування користувача </h2>
+
+<form asp-action="edit" asp-controller="home" asp-route-id="@Model.Id">
+    
+    <p>
+        <label asp-for="Name"> Ім'я </label><br />
+        <input type="text" asp-for="Name" />
+    </p>
+
+    <p>
+        <select asp-for="Type">
+            <option value="Floor">Floor</option>
+            <option value="House">House</option>
+            <option value="Another">Another</option>
+        </select>
+    </p>
+
+    <p>
+        <select asp-for="Class">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+    </p>
+
+    <p>
+        <input type="submit" value=" Зберегти " />
+    </p>
+
+</form>

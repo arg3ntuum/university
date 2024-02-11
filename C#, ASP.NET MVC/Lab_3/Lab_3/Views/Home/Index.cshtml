@@ -1,0 +1,104 @@
+﻿@model List<string>
+@{
+    @functions
+    {
+
+        public int Sum(int a, int b) => a + b;
+        
+        public int Square(int n) => n * n;
+    }
+
+
+    string title = "ТРКД ДНУ . ASP.NET CORE MVC"; // Визначаємо змінну title
+
+    string morning = "Good Morning";
+    string evening = "Good Evening";
+    string hello = "Hello";
+    var i = 0;
+    var k = 0;
+    string[] technologies = { "модель", "подання", "контролер", " організація взаємодії з базою даних за допомогою Entity Framework" };
+    int hour = DateTime.Now.Hour;
+
+    int lab_hours = 28;
+    int lec_hours = 28;
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    @*5.a*@
+    <title> @title </title>
+
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+    <div>
+
+        Розробка інтернет-застосунків з використанням
+        технології ASP.NET Core MVC, архітектура MVC: 
+        <ul>Цикл for:
+            @for (var j = 0; j < technologies.Length; j++)
+            {
+                <li>@technologies[j]</li>
+            }
+            Цикл foreach:
+            @foreach (var person in technologies)
+            {
+                <li>@person</li>
+            }
+            Цикл while:
+            @while (i < technologies.Length)
+            {
+                <li>@technologies[i++]</li>
+            }
+            Цикл do while:
+            @do
+            {
+                <li>@technologies[k]</li>
+            }
+            while (k++ < technologies.Length - 1);
+        </ul>
+        
+        Види навчальних занять
+        (лекції, практичні, семінарські,
+        лабораторні заняття тощо):
+        Лекції (@lec_hours год.), лабораторні роботи (@lab_hours год.). Загалом: @Sum(lab_hours, lec_hours) годин.
+        <h2>Кількість здобувачів: @Model.Count</h2>
+
+        <ul>
+            @foreach (string person in Model)
+            {
+                <li>@person</li>
+            }
+        </ul>
+        За подальшою інформацією звертайтеся до
+        <a href="https://www.dnu.dp.ua/docs/vybir/23-24/UVK_bacelor/1y-09-070_Tekhnolohii%20rozrobky%20krosplatformenykh%20web-dodatkiv_3_4_neparnyi.pdf">цього посилання</a>.
+    </div>
+    <span>
+        @*5) Покажіть різні можливості роботи двигуна подання Razor:
+            a) передачу однорядкових виразів та блоків коду;
+            b) умовні конструкції;
+            c) цикли for, foreach, while, do.. while;
+            d) директиву @functions.*@
+        @*5.b*@
+        @if (hour < 12)
+        {
+            <h2>@morning</h2>
+        }
+        else if (hour > 17)
+        {
+            <h2>@evening</h2>
+        }
+        else
+        {
+            <h2>@hello</h2>
+        }
+
+    </span>
+
+</body>
+
+</html>

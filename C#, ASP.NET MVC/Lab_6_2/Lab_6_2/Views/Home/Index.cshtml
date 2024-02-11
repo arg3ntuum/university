@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Lab_6_2.Models.Student>
+
+<h2> Список користувачів </h2>
+
+<p><a asp-action="Create"> Додати користувача </a></p>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    form {
+        display: inline;
+    }
+
+    input[type="submit"] {
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #c82333;
+    }
+</style>
+<table class="table">
+
+    <tr><th> Ім'я </th><th>Вік</th><th>Група</th><th>Рейтинг</th><th></th><th></th></tr>
+
+    @foreach (var item in Model)
+
+    {
+
+        <tr>
+
+            <td>@item.Name</td>
+
+            <td>@item.Age</td>
+            <td>@item.Group</td>
+            <td>@item.Rating</td>
+
+
+
+            <td>
+
+                <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id"> Змінити </a>
+
+            </td>
+
+            <td>
+
+                <form asp-controller="Home" asp-action="Delete" method="post" asp-route-id="@item.Id">
+
+                    <input type="submit" value=" Видалити " />
+
+                </form>
+
+            </td>
+
+        </tr>
+
+    }
+
+</table>

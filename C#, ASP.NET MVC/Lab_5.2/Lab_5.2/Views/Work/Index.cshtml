@@ -1,0 +1,39 @@
+﻿@using Lab_5.ViewModels
+@using Lab_5.Models
+
+@model IndexViewWorkModel
+
+<style>
+
+    td {
+        padding: 5px;
+    }
+
+    tr:nth-child(even) {
+        background: #CCC
+    }
+
+    tr:nth-child(odd) {
+        background: #FFF
+    }
+
+</style>
+
+<form>
+    <label>Виберіть компанію:</label>
+    <select name="companyId">
+        @foreach (CompanyModel comp in Model.Companies)
+        {
+            <option value="@comp.Id">@comp.Name</option>
+        }
+    </select>
+    <input type="submit" />
+</form>
+<br />
+<table>
+    <tr><td>Name</td><td>Company</td><td>Age</td><td>Country</td></tr>
+    @foreach (Worker p in Model.Workers)
+    {
+        <tr><td>@p.Name</td><td>@p.Company.Name</td><td>@p.Age</td><td>@p.Country</td></tr>
+    }
+</table>

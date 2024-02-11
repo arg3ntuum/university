@@ -1,0 +1,56 @@
+﻿@model Lab_6.Models.User
+
+<h2> Додавання користувача </h2>
+
+<form asp-action="create" asp-controller="home">
+    <style>
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+    </style>
+    <p>
+
+        <label asp-for="Name"> Ім'я </label><br />
+
+        <input type="text" asp-for="Name" />
+
+    </p>
+
+    <p>
+
+        <label asp-for="Age">Вік</label><br />
+
+        <input type="number" asp-for="Age" />
+
+    </p>
+
+    <p>
+
+        <input type="submit" value=" Відправити " />
+
+    </p>
+
+</form>

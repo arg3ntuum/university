@@ -1,0 +1,19 @@
+﻿@using Lab_5.Models
+
+@model IEnumerable<Student>
+
+<h2>People</h2>
+
+<table class="table">
+
+    <tr><td>Id</td><td>Name</td><td>Age</td><td>Group</td></tr>
+
+    @foreach (var p in Model)
+
+    {
+
+        <tr><td>@p.Id</td><td>@p.Name</td><td>@p.Age</td><td>@p.group</td></tr>
+
+    }
+
+</table>

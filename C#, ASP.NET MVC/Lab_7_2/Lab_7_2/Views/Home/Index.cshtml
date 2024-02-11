@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+<form method="post">
+
+<h2>Анкета студента</h2>
+<label>Уведіть ім`я:</label><br />
+<input type="text" name="Name" />
+<br />
+
+<label>Уведіть age:</label><br />
+<input type="number" name="Age" />
+<br/>
+
+<label>Уведіть pass:</label><br />
+<input type="password" name="Pass" />
+<br />
+
+<label>Is Married:</label>
+<input type="checkbox" name="isMarried" value="true" />
+<br />
+
+<label>Оберіть тип спеціальності:</label>
+    <br />
+
+    <input name="type" type="radio" value="matematic" />
+    <span>Математична</span> <br />
+    
+    <input name="type" type="radio" value="non-matematic" />
+    <span>Не математична</span><br />
+
+    <label for="language">Виберіть мову:</label>
+    <br />
+    <select name="language">
+        <option value="csharp">C#</option>
+        <option value="vbnet">Visual Basic.NET</option>
+        <option value="fsharp">F#</option>
+        <option value="typescript">TypeScript</option>
+    </select>
+
+    <p>
+        <input type="submit" value="Send" />
+    </p>
+</form>

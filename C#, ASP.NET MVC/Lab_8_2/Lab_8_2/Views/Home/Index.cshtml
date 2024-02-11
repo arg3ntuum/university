@@ -1,0 +1,47 @@
+﻿@using Lab_8_2.Models
+@model Anketa
+@{
+    Layout = null;
+}
+<a asp-controller="Home" asp-action="Contacts">Контакти</a>
+<br />
+<a href="/Home/About">Тисніть тут</a>
+<br />
+<h2>Анкета студента</h2>
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <label asp-for="Name">Уведіть ім'я:</label><br />
+    <input asp-for="Name" />
+    <br />
+
+    <label asp-for="Age">Уведіть age:</label><br />
+    <input asp-for="Age" />
+    <br />
+
+    <label asp-for="Pass">Уведіть pass:</label><br />
+    <input asp-for="Pass" type="password" />
+    <br />
+
+    <label asp-for="IsMarried">Is Married:</label>
+    <input asp-for="IsMarried" type="checkbox" />
+    <br />
+
+    <label>Оберіть тип спеціальності:</label>
+    <br />
+
+    <input asp-for="Type" type="radio" value="matematic" />
+    <span>Математична</span> <br />
+
+    <input asp-for="Type" type="radio" value="non-matematic" />
+    <span>Не математична</span><br />
+
+    <label asp-for="Language">Виберіть мову:</label>
+    <br />
+    <select asp-for="Language">
+        <option value="csharp">C#</option>
+        <option value="vbnet">Visual Basic.NET</option>
+        <option value="fsharp">F#</option>
+        <option value="typescript">TypeScript</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
