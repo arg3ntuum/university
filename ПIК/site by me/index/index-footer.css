@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    height: 7.72%;
+    background-color: #110707;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+
+.phone-number {
+}
+
+.address {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    width:100%;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('inst-icon.png');
+    background-size: 100% auto;
+    cursor: pointer;
+    margin-right: 15px;
+}

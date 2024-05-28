@@ -1,0 +1,76 @@
+.hr-name{
+    margin-bottom: 0.1%;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+.product-image{
+    width: 215px;
+    height: 215px;
+    margin-bottom: 10px;
+    position: absolute; /* Позиционируем кнопку абсолютно внутри фрейма */
+    left: 16.5%; /* Располагаем кнопку по горизонтали по центру */
+}
+
+.name-product{
+    position: absolute; /* Позиционируем кнопку абсолютно внутри фрейма */
+    top: 190px;
+    width: 300px;
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.order-button {
+    position: absolute; /* Позиционируем кнопку абсолютно внутри фрейма */
+    bottom: 20px; /* Отступ от нижнего края фрейма */
+    left: 50%; /* Располагаем кнопку по горизонтали по центру */
+    transform: translateX(-50%); /* Корректируем положение кнопки по горизонтали */
+    width: 119px;
+    height: 43px;
+    border-radius: 50px;
+    background-color: #9F7171;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    line-height: 43px; /* Центрируем текст кнопки по вертикали */
+    cursor: pointer;
+}
+
+.description-product{
+    position: absolute; /* Позиционируем кнопку абсолютно внутри фрейма */
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    text-align: center;
+    top: 270px; /* Отступ от нижнего края фрейма */
+    width: 300px;
+}
+
+.cost-product{
+    position: absolute; /* Позиционируем кнопку абсолютно внутри фрейма */
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+}
+.item {
+    position: relative; /* Добавляем позиционирование */
+    width: 300px;
+    height: 400px;
+    background-color: #231414;
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+}
+
+.divider {
+    width: 1876px;
+    height: 5px;
+    background-color: #231414;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.Properties.Resources.resources
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\bin\Debug\ProducerConsumerApp.exe.config
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\bin\Debug\ProducerConsumerApp.exe
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\bin\Debug\ProducerConsumerApp.pdb
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.exe
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.pdb
+C:\Users\User\source\repos\ProducerConsumerApp\ProducerConsumerApp\obj\Debug\ProducerConsumerApp.Form1.resources

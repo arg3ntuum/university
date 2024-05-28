@@ -1,0 +1,91 @@
+header {
+    width: 100%;
+    height: 10.44%;
+}
+
+.header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.01%; /* 20px в процентах от 1980px */
+}
+
+.logo,
+.header-controls {
+    height: 100%; /* Используем 100% высоты */
+}
+
+.logo {
+    width: 9.8%; /* 194px в процентах от 1980px */
+}
+
+.header-controls {
+    width: 100%;
+    padding: 0 1.01%;
+    display: flex;
+    align-items: center;
+}
+
+.button,
+.cart-button {
+    width: 15.98%; /* Ширина кнопок в процентах относительно header */
+    height: 45%; /* Высота кнопок равна высоте header */
+    border-radius: 50px;
+    margin-right: 1.01%; /* Отступ между кнопками */
+
+    background-color: #9F7171;
+    color: #FFFFFF;
+    font-size: 120%;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button {
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding-left: 5.55%; /* Отступ для кнопки корзины */
+    background-image: url('cart-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30%; /* Изменяем размер изображения, чтобы оно полностью вмещалось в кнопку */
+}
+
+.button:hover,
+.cart-button:hover {
+    transform: translateY(-7.2%);
+}
+
+.button:hover{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-button:hover{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cart-button-icon {
+    padding-left: 5.55%; /* Отступ для кнопки корзины */
+
+    width: 3.74%;
+
+    height: 1.74%; /* Масштабируем размер изображения корзины */
+    margin-right: 0.5%;
+}
+
+.brand-info {
+    width: 9.95%; /* 197px в процентах от 1980px */
+    height: 28.4%; /* 71px в процентах от 250px */
+    text-align: center;
+    font-family: 'Island Moments', sans-serif;
+    font-size: 9.6%; /* 24px в процентах от 250px */
+    line-height: 28.4%; /* 71px в процентах от 250px */
+    background-color: #fff;
+    border-radius: 10.1%; /* 20px в процентах от 1980px */
+}

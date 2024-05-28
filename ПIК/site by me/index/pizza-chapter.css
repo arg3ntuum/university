@@ -1,0 +1,15 @@
+.pizza-section {
+    margin-top: 20px;
+}
+
+.pizza {
+    display: flex;
+}
+
+.drinks{
+    display: flex;
+}
+
+.sauces{
+    display: flex;
+}

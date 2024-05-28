@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--типо для мобильных устройств-->
+    <title>Pizza.now</title>
+    <link rel="stylesheet" href="index/style.css">
+    <link rel="icon" href="sourse/icon.png" type="image/jpg">
+</head>
+<body>
+<script>
+    function scrollToSection(sectionId) {
+        var element = document.getElementById(sectionId);
+        element.scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+<header>
+    <div class="header-content">
+        <img src="sourse/icon.png" alt="Логотип" class="logo">
+        <div class="header-controls">
+            <button class="button" onclick="scrollToSection('pizza')">Піцца</button>
+            <button class="button" onclick="scrollToSection('drinks')">Напої</button>
+            <button class="button" onclick="scrollToSection('sauces')">Соуси</button>
+            <button class="button" onclick="scrollToSection('ivent')">Акції</button>
+            <button class="button" onclick="scrollToSection('footer')">Контакти</button>
+            <button class="cart-button" onclick="window.location.href='payment.html'"><img src="cart-icon.png" class="cart-button-icon" alt="Корзина"> 0 грн</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="ivent" id="ivent">
+        <img src="sourse/ivent.png" class="ivent-icon" alt="Акції">
+    </div>
+
+    <div class="main-part">
+        <h2 class="hr-name">Піцца</h2>
+        <div class="divider"></div>
+        <div class="pizza" id="pizza">
+            <div class="item">
+                <img class="product-image" src="sourse/pizza1.png" alt="Аляска">
+                <h3 class="name-product">Аляска</h3>
+                <p class="description-product">пепероні, бекон, маринований огірочок, печериці, моцарела, піца-соус, гірчичний соус</p>
+                <span class="cost-product">200 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/pizza1.png" alt="Аляска">
+                <h3 class="name-product">Гавайская</h3>
+                <p class="description-product">пепероні, бекон, маринований огірочок, печериці, моцарела, піца-соус, гірчичний соус</p>
+                <span class="cost-product">200 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/pizza1.png" alt="Аляска">
+                <h3 class="name-product">Барбекю</h3>
+                <p class="description-product">пепероні, бекон, маринований огірочок, печериці, моцарела, піца-соус, гірчичний соус</p>
+                <span class="cost-product">200 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/pizza1.png" alt="Аляска">
+                <h3 class="name-product">С грибами</h3>
+                <p class="description-product">пепероні, бекон, маринований огірочок, печериці, моцарела, піца-соус, гірчичний соус</p>
+                <span class="cost-product">200 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+        </div>
+        <h2 class="hr-name">Напої</h2>
+        <div class="divider"></div>
+        <div class="drinks" id="drinks">
+            <div class="item">
+                <img class="product-image" src="sourse/beverage1.png" alt="Аляска">
+                <h3 class="name-product">Ice-late</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">59 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/beverage1.png" alt="Аляска">
+                <h3 class="name-product">Ice-late</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">59 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/beverage1.png" alt="Аляска">
+                <h3 class="name-product">Ice-late</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">59 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/beverage1.png" alt="Аляска">
+                <h3 class="name-product">Ice-late</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">59 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+        </div>
+        <h2 class="hr-name">Coуси</h2>
+        <div class="divider"></div>
+        <div class="sauces" id="sauces">
+            <div class="item">
+                <img class="product-image" src="sourse/souse1.png" alt="Аляска">
+                <h3 class="name-product">BBQ</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">228 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/souse1.png" alt="Аляска">
+                <h3 class="name-product">Сырный</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">28 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/souse1.png" alt="Аляска">
+                <h3 class="name-product">Томатный</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">28 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+            <div class="item">
+                <img class="product-image" src="sourse/souse1.png" alt="Аляска">
+                <h3 class="name-product">Кислосладкий</h3>
+                <p class="description-product"></p>
+                <span class="cost-product">28 грн</span>
+                <button class="order-button">Замовити</button>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer" id="footer">
+    <div class="footer-text">
+        <span class="phone-number">067-64-10-332</span>
+        <span class="address">м. Дніпро, Наукова 20, Україна</span>
+    </div>
+    <a href="http://instagram.com/arg3ntuum">
+        <div class="instagram-icon"></div>
+    </a>
+</footer>
+
+
+</body>
+</html>
