@@ -1,0 +1,16 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,main/com/StreamBenchmark.averageParallel
+inline,main/com/StreamBenchmark.averageSequential
+inline,main/com/StreamBenchmark.filterParallel
+inline,main/com/StreamBenchmark.filterSequential
+inline,main/com/StreamBenchmark.multiplyParallel
+inline,main/com/StreamBenchmark.multiplySequential
+inline,main/com/StreamBenchmark.setup
+inline,main/com/StreamBenchmark.standardDeviationParallel
+inline,main/com/StreamBenchmark.standardDeviationSequential
+inline,main/com/StreamBenchmark.sumParallel
+inline,main/com/StreamBenchmark.sumSequential

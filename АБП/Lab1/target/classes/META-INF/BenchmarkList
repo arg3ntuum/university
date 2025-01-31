@@ -1,0 +1,10 @@
+JMH S 24 main.com.StreamBenchmark S 62 main.com.jmh_generated.StreamBenchmark_averageParallel_jmhTest S 15 averageParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 64 main.com.jmh_generated.StreamBenchmark_averageSequential_jmhTest S 17 averageSequential S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 61 main.com.jmh_generated.StreamBenchmark_filterParallel_jmhTest S 14 filterParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 63 main.com.jmh_generated.StreamBenchmark_filterSequential_jmhTest S 16 filterSequential S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 63 main.com.jmh_generated.StreamBenchmark_multiplyParallel_jmhTest S 16 multiplyParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 65 main.com.jmh_generated.StreamBenchmark_multiplySequential_jmhTest S 18 multiplySequential S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 72 main.com.jmh_generated.StreamBenchmark_standardDeviationParallel_jmhTest S 25 standardDeviationParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 74 main.com.jmh_generated.StreamBenchmark_standardDeviationSequential_jmhTest S 27 standardDeviationSequential S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 58 main.com.jmh_generated.StreamBenchmark_sumParallel_jmhTest S 11 sumParallel S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 main.com.StreamBenchmark S 60 main.com.jmh_generated.StreamBenchmark_sumSequential_jmhTest S 13 sumSequential S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
