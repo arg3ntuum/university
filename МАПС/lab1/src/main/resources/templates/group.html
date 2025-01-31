@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Details</title>
+</head>
+<body>
+<h1>Group [[${groupId}]]</h1>
+<ul>
+    <li th:each="image : ${images}">
+        <img th:src="@{/image/{id}(id=${image.id})}" th:alt="'Image ' + ${image.width} + 'x' + ${image.height}" />
+        <span>Image [[${image.width}]]x[[${image.height}]]</span>
+    </li>
+</ul>
+<a href="/">Back to Home</a>
+</body>
+</html>
+
+
